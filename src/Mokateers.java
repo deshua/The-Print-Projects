@@ -1,9 +1,9 @@
 public class Mokateers {
     private int employeeId;
-    private Strinfg name;
+    private String name;
     private long salary;
 
-    public Mokateers(int employeeId, Strinfg name, long salary) {
+    public Mokateers(int employeeId, String name, long salary) {
         this.employeeId = employeeId;
         this.name = name;
         this.salary = salary;
@@ -13,7 +13,7 @@ public class Mokateers {
         return employeeId;
     }
 
-    public Strinfg getName() {
+    public String getName() {
         return name;
     }
 
